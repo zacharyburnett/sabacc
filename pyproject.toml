@@ -1,7 +1,9 @@
 [project]
 name = "sabacc"
 description = "Sabacc - Corellian Spike"
-readme = {file = "README.md", content-type = "text/markdown"}
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = "3.11"
-license = { file = "LICENSE", content-type = "text/plain"}
+license = { file = "LICENSE", content-type = "text/plain" }
+authors = [{ name = "Zach Burnett", email = "zachary.r.burnett@gmail.com" }]
+dependencies = []
 dynamic = ["version"]
