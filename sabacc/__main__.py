@@ -8,6 +8,9 @@ class Sabacc(App):
         yield Footer()
 
 
-if __name__ == '__main__':
+def main():
     sabacc = Sabacc()
     sabacc.run()
+    
+if __name__ == '__main__':
+    main()

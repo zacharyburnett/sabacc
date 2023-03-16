@@ -5,5 +5,8 @@ readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = "3.11"
 license = { file = "LICENSE", content-type = "text/plain" }
 authors = [{ name = "Zach Burnett", email = "zachary.r.burnett@gmail.com" }]
-dependencies = []
+dependencies = ["textual"]
 dynamic = ["version"]
+
+[project.scripts]
+sabacc = "sabacc.__main__:main"
